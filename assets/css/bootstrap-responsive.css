@@ -80,7 +80,7 @@
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-blur2.jpg') no-repeat  center center;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-blur2.jpg') no-repeat  center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -100,7 +100,7 @@
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-about.jpg') no-repeat  center center;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-about.jpg') no-repeat  center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -115,7 +115,7 @@
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-contact.jpg') no-repeat  center center;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-contact.jpg') no-repeat  center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -129,7 +129,7 @@
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-sitemap.jpg') no-repeat  center center;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-sitemap.jpg') no-repeat  center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -143,7 +143,7 @@
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-404.jpg') no-repeat  center center;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-404.jpg') no-repeat  center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -157,7 +157,7 @@
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-signup.jpg') no-repeat  center center;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-signup.jpg') no-repeat  center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -171,7 +171,21 @@
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-login.jpg') no-repeat  center center;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-login.jpg') no-repeat  center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.dg-container.faq:before {
+  content:"";
+  z-index:-1;
+  position: absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background: none;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -185,7 +199,7 @@
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-pricing.jpg') no-repeat  center center;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-pricing.jpg') no-repeat  center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -196,7 +210,7 @@
   .typo_top h1.home-header {
     font-size: 62px;
   }
-  #balance-display {margin-left: 30px;}
+  #balance-display {margin-left: 20px;}
   .row {
     /*margin-left: -30px;*/
     *zoom: 1;
@@ -728,7 +742,7 @@ margin-top: 20px;
     bottom:0;
     left:0;
     right:0;
-    background: url('../img/profig-main-grid-image-blur2.jpg') no-repeat;
+    background: url('http://profig.github.com/assets/img/profig-main-grid-image-blur2.jpg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -742,7 +756,7 @@ margin-top: 20px;
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-about.jpg') no-repeat ;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-about.jpg') no-repeat ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -758,7 +772,7 @@ margin-top: 20px;
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-contact.jpg') no-repeat ;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-contact.jpg') no-repeat ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -772,7 +786,7 @@ margin-top: 20px;
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-sitemap.jpg') no-repeat ;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-sitemap.jpg') no-repeat ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -787,7 +801,7 @@ margin-top: 20px;
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-404.jpg') no-repeat ;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-404.jpg') no-repeat ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -802,7 +816,7 @@ margin-top: 20px;
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-signup.jpg') no-repeat ;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-signup.jpg') no-repeat ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -816,7 +830,7 @@ margin-top: 20px;
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-login.jpg') no-repeat ;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-login.jpg') no-repeat ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -831,7 +845,7 @@ margin-top: 20px;
   bottom:0;
   left:0;
   right:0;
-  background: url('../img/profig-main-grid-image-pricing.jpg') no-repeat ;
+  background: url('http://profig.github.com/assets/img/profig-main-grid-image-pricing.jpg') no-repeat ;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

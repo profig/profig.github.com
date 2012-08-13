@@ -23,8 +23,8 @@
     */
 @font-face {
   font-family: "FontAwesome";
-  src: url('../css/font/fontawesome-webfont.eot');
-  src: url('../css/font/fontawesome-webfont.eot?#iefix') format('eot'), url('../css/font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
+  src: url('http://profig.github.com/assets/css/font/fontawesome-webfont.eot');
+  src: url('http://profig.github.com/assets/css/font/fontawesome-webfont.eot?#iefix') format('eot'), url('http://profig.github.com/assets/css/font/fontawesome-webfont.woff') format('woff'), url('http://profig.github.com/assets/css/font/fontawesome-webfont.ttf') format('truetype'), url('http://profig.github.com/assets/css/font/fontawesome-webfont.svg#FontAwesome') format('svg');
   font-weight: normal;
   font-style: normal;
 }
