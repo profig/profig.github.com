@@ -337,9 +337,9 @@ content: '';
 position: absolute;
 bottom: 1px;
 border-bottom: 1px dotted #BBB;
-width: 100%;
+width: 110%;
 height: 0;
-left: -40px;
+left: -31px;
 }
 
 #pricing {
