@@ -156,9 +156,15 @@ line-height: 0.5em;
   margin: 5px 0 20px;
 }
 
-.typo_top .get-started:hover, .row .get-started:hover, .typo_top .get-started:focus, .row .get-started:focus {
+.typo_top a.get-started:hover, .row a.get-started:hover, .typo_top a.get-started:focus, .row a.get-started:focus,
+.typo_top button.get-started:hover, .row button.get-started:hover, .typo_top button.get-started:focus, .row button.get-started:focus {
   background: -moz-linear-gradient(19% 75% 90deg, #EB4701, #F58423);
 background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F58423), to(#EB4701));
+background: -o-linear-gradient(19% 75% 90deg, #EB4701, #F58423); /* Opera11.10+ */
+background: -ms-linear-gradient(19% 75% 90deg, #EB4701, #F58423); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EB4701', endColorstr='#F58423',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(19% 75% 90deg, #EB4701, #F58423); /* W3C */
+
 }
 
 .typo_top .get-started, .row .get-started {
@@ -171,11 +177,17 @@ font-family: 'Droid Serif',serif;
 display: inline-block;
 font-size: 27px;
 min-width: 110px;
-background: -moz-linear-gradient(19% 75% 90deg, #FF4D01, #FF8924);
-background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF8924), to(#FF4D01));
 border:0;
   padding: 28px 70px;
   margin-left: 20px;
+}
+.typo_top button.get-started, .row button.get-started{
+background: -moz-linear-gradient(19% 75% 90deg, #FF4D01, #FF8924);
+background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF8924), to(#FF4D01));
+background: -o-linear-gradient(19% 75% 90deg, #FF8924, #FF8924); /* Opera11.10+ */
+background: -ms-linear-gradient(19% 75% 90deg, #FF8924, #FF8924); /* IE10+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF8924', endColorstr='#FF8924',GradientType=0 ); /* IE6-9 */
+background: linear-gradient(19% 75% 90deg, #FF8924, #FF8924); /* W3C */
 }
 .get-started.sign-up {
 }
@@ -312,7 +324,8 @@ p.fbody {
   font-family: 'Droid Serif',serif;
 }
 .virtual-check .span5 ul li {
-  font-size: 19px;
+  font-size: 18px;
+  font-weight: bold;
   /*margin-left: 10px;*/
   padding: 12px 0 24px;
   position: relative;
@@ -337,9 +350,9 @@ content: '';
 position: absolute;
 bottom: 1px;
 border-bottom: 1px dotted #BBB;
-width: 110%;
+width: 105%;
 height: 0;
-left: -31px;
+left: -23px;
 }
 
 #pricing {
@@ -519,6 +532,7 @@ background-image: -ms-linear-gradient(top, rgb(242,242,242), rgb(232,232,232));
 .phonemenu .close { opacity: 1.0; filter: alpha(opacity=100); margin-left: 5px;}
 .phonemenu .close:hover i { color: #51A351;}
 .phonemenu .close i { color: #37BBE7;}
+.phonemenu .close i.icon-trash {color:#f55;}
 .phonemenu .close:hover i.icon-trash {color:#f00;}
 .phonemenu .box-widget.hours {border: 1px solid #FA6C0B;}
 .phonemenu .box-widget.hours-sub {border: 1px dotted #FA6C0B;}
@@ -556,9 +570,7 @@ background-image: -ms-linear-gradient(top, rgb(242,242,242), rgb(232,232,232));
 text-align: right;
 line-height: 40px;
 padding: 0 5px 0 6px;
-position: absolute;
-width: 250px;
-top: -12px;
+width: 100%;
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
 border-radius: 10px;
@@ -605,10 +617,6 @@ border-top: 1px solid #E6E6E6;
 background: #1E1E1E;
 }
 
-.account-row.span5 .control-group {
-position: relative;
-left: -50px;
-}
 .account-row.span5 .control-group .controls{
 position: relative;
 left: -30px;
@@ -637,6 +645,7 @@ font-size: 15px;
 .customhours .form-horizontal .control-label, .control-label {
   clear: left;
   float: left;
+  text-align: right;
 }
 
 #create_campaigns input[type="radio"] {
@@ -840,4 +849,8 @@ height: 100px;
   font-size: 17px;
   padding-left: 50px;
   text-align: left;
+}
+
+#profile input[type="text"], #profile input[type="password"] {
+  width: 180px;
 }
