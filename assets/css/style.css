@@ -181,7 +181,7 @@ border:0;
   padding: 28px 70px;
   margin-left: 20px;
 }
-.typo_top button.get-started, .row button.get-started{
+.typo_top a.get-started, .row a.get-started,.typo_top button.get-started, .row button.get-started{
 background: -moz-linear-gradient(19% 75% 90deg, #FF4D01, #FF8924);
 background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF8924), to(#FF4D01));
 background: -o-linear-gradient(19% 75% 90deg, #FF8924, #FF8924); /* Opera11.10+ */
@@ -226,6 +226,9 @@ color: #777;
 display: block;
 font-family: 'Droid Serif', serif;
 margin-bottom:0;
+}
+ul.desc li {
+  line-height:24px;
 }
 ol.desc li {
   margin: 5px;
@@ -325,7 +328,6 @@ p.fbody {
 }
 .virtual-check .span5 ul li {
   font-size: 18px;
-  font-weight: bold;
   /*margin-left: 10px;*/
   padding: 12px 0 24px;
   position: relative;
@@ -362,8 +364,11 @@ left: -23px;
   padding-top: 30px;
   color: #333;
 }
+#pricing table.no_bold tr td:first-child {
+  font-weight: normal;
+}
 #pricing tr td:first-child {
-  /*font-weight: bold;*/
+  font-weight: bold;
 }
 #pricing th  {
   padding: 20px 40px;
@@ -567,6 +572,7 @@ background-image: -ms-linear-gradient(top, rgb(242,242,242), rgb(232,232,232));
 
 
 #balance-display {
+  display: none;
 text-align: right;
 line-height: 40px;
 padding: 0 5px 0 6px;
@@ -651,9 +657,17 @@ font-size: 15px;
 #create_campaigns input[type="radio"] {
   margin: 0;
 }
+#create_campaigns .controls {
+margin-left: 250px;
+}
+#create_campaigns input[type="radio"], #create_campaigns input[type="checkbox"] {
+  margin-left: 10px;
+  width: 20px;
+}
 #create_campaigns input, #create_campaigns select , #create_campaigns textarea{
   float:none;
-  margin-left: 70px;
+  margin-left: 10px;
+  width: 250px;
 }
 
 .phonemenu table td{
@@ -699,7 +713,7 @@ height: 17px;
   font-size: 15px;
 }
 
-#create_campaigns .control-label { width: 220px;}
+#create_campaigns .control-label { width: 240px;}
 .droid {
 color: #0C1926;
 font-family: 'Droid Serif',serif;
@@ -853,4 +867,8 @@ height: 100px;
 
 #profile input[type="text"], #profile input[type="password"] {
   width: 180px;
+}
+
+.inputNote {
+  color: #666; font-size: 15px; font-style:italic;
 }
